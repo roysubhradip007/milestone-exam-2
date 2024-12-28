@@ -1,0 +1,27 @@
+.addWrapper{
+    background: #fff;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    margin: 3rem 0;
+}
+
+input{
+    padding: 0.7rem 1rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+button{
+    padding: 0.6rem 2.5rem;
+    background: #760776;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: medium;
+}

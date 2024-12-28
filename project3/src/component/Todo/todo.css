@@ -1,0 +1,26 @@
+.todoWrapper{
+    background: rgb(13, 14, 33);
+    color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem 1.5rem;
+}
+
+.todoWrapper p{
+    font-weight: 300;
+    font-size: medium;
+}
+
+.todoWrapper button{
+    background: #3F28CC;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.7rem 0;
+    border: 2px solid #442cdf;
+    border-radius: 0.4rem;
+}

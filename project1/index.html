@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Libre+Baskerville:wght@700&family=Oswald:wght@200..700&family=Poppins:wght@300;400;900&family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="fade"></div>
+        <div class="mainContainer">
+            <div class="topContainer">
+                <h1>PwSkills Blog</h1>
+                <button class="addBlog" title="Add New Blog">+</button>
+            </div>
+            <div class="cardContainer">
+                <div class="card">
+                    <img src= "https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
+                    <h3 >Simple Mindfulness Practices to Reduce Stress</h3>
+                    <div>
+                        <p>In today's busy world, mindfulness can be a powerful tool to reduce stress and improve mental well-being.</p>
+                    </div>
+                    <p class="description">
+                        In the hustle and bustle of modern life, where constant notifications, tight schedules, and mounting responsibilities can overwhelm us, mindfulness emerges as a sanctuary for the mind and soul. Rooted in ancient practices, mindfulness is the art of being fully present in the moment, aware of our thoughts, emotions, and surroundings without judgment.
+    
+                        Incorporating mindfulness into daily life can profoundly reduce stress and enhance mental well-being. By focusing on the here and now, we can quiet the mental chatter that often fuels anxiety and exhaustion. Mindfulness techniques, such as deep breathing, meditation, and mindful observation, promote a sense of calm and clarity, allowing us to respond to challenges with greater resilience and composure.
+                    </p>
+                    <button>Read</button>
+                </div>
+                <div class="card">
+                    <img src= "https://images.pexels.com/photos/2598630/pexels-photo-2598630.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
+                    <h3 >The Power of Collaboration in Modern Teams</h3>
+                    <div>
+                        <p class="card-summary" >Discover how teamwork and collaboration drive innovation and success. Learn strategies to foster strong connections within groups and achieve collective goals effectively.</p>
+                    </div>
+                    <p class="description">
+                        Teamwork and collaboration are powerful catalysts for innovation and success. When individuals bring diverse skills and perspectives together, they create opportunities to solve complex problems and achieve goals beyond what anyone could accomplish alone. Collaboration thrives on open communication, trust, and mutual respect, fostering an environment where ideas flourish, and everyone's strengths contribute to the group's success.
+    
+                        To enhance teamwork, it's essential to establish clear goals, assign roles that align with individual talents, and encourage inclusivity and shared accountability. By building strong connections and utilizing collaborative tools and strategies, teams can streamline efforts and maintain focus on their objectives. Together, they can unlock their collective potential, transforming challenges into achievements.
+                    </p>
+                    <button>Read</button>
+                </div>
+                <div class="card">
+                    <img src= "https://images.pexels.com/photos/236599/pexels-photo-236599.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
+                    <h3 >The Majestic Tiger: A Symbol of Power and Beauty</h3>
+                    <div>
+                        <p class="card-summary" >"Tigers are one of the most iconic and awe-inspiring animals on Earth. As the largest members of the cat family, they are known for their striking orange coats with black stripes and piercing eyes. Native to Asia, tigers inhabit a range of environments, from dense jungles to open grasslands.</p>
+                    </div>
+                    <p class="description">
+                        Tigers are among the most iconic and awe-inspiring creatures on the planet. As the largest members of the cat family, they are renowned for their powerful build, striking orange coats adorned with bold black stripes, and piercing amber eyes. These majestic animals are native to Asia and thrive in diverse habitats, ranging from dense tropical jungles to expansive grasslands and mangrove swamps.
+    
+                        Tigers are solitary and territorial predators, known for their stealth and strength. They play a vital role in maintaining the balance of ecosystems by controlling prey populations. Unfortunately, tigers face significant threats from habitat loss, poaching, and human-wildlife conflicts. Conservation efforts are crucial to ensure the survival of these magnificent animals, which symbolize strength, courage, and the beauty of the natural world.
+                    </p>
+                    <button>Read</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inputContainer">
+            <div><button class="icon"><i class="fa-solid fa-xmark"></i></button></div>
+            <input class="imageUrl eleFocus" type="text" placeholder="Enter Blog Post URL :"/>
+            <input class="newTitle eleFocus" type="text" placeholder="Enter Blog Title : "/>
+            <input class="newDescription eleFocus" type="text" placeholder="Enter Blog Description : "/>
+            <textarea class="newContent eleFocus" name="blog-content" id="blog-content" placeholder="Write..."></textarea>
+            <button class="btn">Add Blog</button>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

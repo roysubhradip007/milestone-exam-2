@@ -1,0 +1,6 @@
+.todoListContainer{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    flex-wrap: wrap;
+}
